@@ -1,0 +1,15 @@
+def Mix(string):
+     ix = string[1:3]
+     if ix == "ix":
+         print('True')
+     else:
+         print('False')
+
+ output = Mix('mix Snacks')
+ print(output)
+
+ output = Mix('pix Snacks')
+ print(output)
+
+ output = Mix('piz Snacks')
+ print(output)
