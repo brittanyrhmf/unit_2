@@ -1,0 +1,13 @@
+def letters(string):
+    returnMessage = []
+    stringLen = len(string)
+    counter = 0
+    while counter < stringLen:
+        for letter in string:
+            message = (f"{counter} = {letter}")
+            print(message)
+            counter += 1
+            
+output = letters('hello')
+print(output)
+            
