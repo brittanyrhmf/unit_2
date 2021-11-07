@@ -1,0 +1,10 @@
+def maxAbs():
+    input(int(list))
+    biggest = 0
+    for i in list:
+        if abs(i) > biggest:
+            biggest = abs(i)
+            biggestOutput = i
+    return biggestOutput
+    
+maxAbs()
