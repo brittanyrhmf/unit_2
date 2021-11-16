@@ -1,0 +1,50 @@
+// This is a comment
+//
+/*
+this is a multiple line comment
+*/
+
+bool SameFirstLast(int list_nums[])
+{
+  Serial.println("inside the function");
+  // calculate the length of input
+  uint8_t length = sizeof(list_nums) / sizeof(uint8_t);
+    
+  //define the variable for the result bool: True/False
+  bool result = false;
+  // AND -> &&, OR -> ||, NOT !
+  Serial.println(list_nums[0]);
+  Serial.println(list_nums[length-1]);
+  if (length >= 1 && list_nums[0] == list_nums[length-1])
+  {
+    result = true;
+  }
+  return result;
+}
+
+void setup()
+{
+  // code here runs once at the begining
+  // there are no lists in C. Only Arrays which are fixed
+  // Static variables
+  int test_1[3] = {1, 2, 1};
+  bool result = SameFirstLast(test_1);
+  
+  //communication uses Serial port
+  Serial.begin(9600); // 9600 bits/second
+  Serial.println("welcom");
+  Serial.print("result is ");
+  if (result == true){
+    Serial.println("True");
+  }else {
+  	Serial.println("False");
+  }
+  
+}
+
+//Create a function that adds numbers from A to B
+
+void loop()
+{// Arduino loops here.
+
+}
