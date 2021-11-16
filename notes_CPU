@@ -1,0 +1,22 @@
+Register - small chunks of memory - stores a single value 
+RAM - larger bank of memory
+
+CPU - Heart of the computer, used to execute programs
+- It works with ‘instructions’
+
+MICROARCHITECTURE:
+- 4byts: opcode
+- 4byts: specify where data for operation should come from
+- Instruction address register 
+- Instruction register
+
+ALL REGISTERS START AT 0
+
+1. Fetch phase
+  2. Decode phase
+3. Interpreted by control unit
+4. Execute phase
+
+The clock: triggers an electrical signal at precise and regular interval. The signal is used by the CU to advance internal operation of the CPU keeping everything lock-step.
+Clock Speed is the speed at which the cpu can carry out each step of the fetch-decode execute (Hertz - Hz)
+
