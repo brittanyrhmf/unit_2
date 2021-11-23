@@ -10,5 +10,5 @@ def word_legth(lst):
 output = word_length(["home", "car", "travel", "beach"])
 print(output)
 
-output = wordlength(["cat", "dog", "rabbit", "hamster", "horse"])
+output = word_length(["cat", "dog", "rabbit", "hamster", "horse"])
 print(output)
