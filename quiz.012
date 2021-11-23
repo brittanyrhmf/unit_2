@@ -1,0 +1,14 @@
+def word_legth(lst):
+    sum = 0
+    lstLen = len(lst)
+    for word in lst:
+        word_len = len(word)
+        sum += word_len
+    average = sum/lstLen
+    return average
+
+output = word_length(["home", "car", "travel", "beach"])
+print(output)
+
+output = wordlength(["cat", "dog", "rabbit", "hamster", "horse"])
+print(output)
