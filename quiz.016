@@ -6,3 +6,4 @@ def reversed(word):
         answer += word[i-1]
         
     print(answer)
+   
