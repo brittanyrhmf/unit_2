@@ -1,0 +1,11 @@
+def SameFirstLast(numbs):
+    length = len(numbs)
+
+    if length >= 1 and numbs[0] == numbs[length-1]:
+        print('True')
+   else: 
+        print('False')
+    
+    print(SameFirstLast([1, 2, 3])
+    print(SameFirstLast([1, 2, 3, 1])
+    print(SameFirstLast([1, 2, 1])
