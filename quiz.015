@@ -1,0 +1,16 @@
+def ReverseMode(numbs):
+    answer = []
+    split = numbs.split("!")
+
+    for i in range(3):
+        binomial = split[i]
+        exponent = 1
+        res = 0
+
+        for digit in binomial[::-1]:
+            res += int(digit) * exponent
+            exponent *= 2
+
+        answer.append(str(res))
+        
+    return answer
